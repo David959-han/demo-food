@@ -1,0 +1,6 @@
+[
+  {"id":1,"name":"Cheese Burger","price":"$12","image":"https://images.unsplash.com/photo-1550547660-d9450f859349"},
+  {"id":2,"name":"Veggie Pizza","price":"$15","image":"https://images.unsplash.com/photo-1601924638867-3ecf1e5a35e3"},
+  {"id":3,"name":"Chicken Wrap","price":"$10","image":"https://images.unsplash.com/photo-1617196037823-3db27ed40f72"},
+  {"id":4,"name":"Coke","price":"$3","image":"https://images.unsplash.com/photo-1598514982232-63df9bc91f7b"}
+]

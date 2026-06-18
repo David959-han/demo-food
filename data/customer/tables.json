@@ -1,0 +1,7 @@
+[
+  {"id":1,"status":"Free"},
+  {"id":2,"status":"Occupied"},
+  {"id":3,"status":"Free"},
+  {"id":4,"status":"Occupied"},
+  {"id":5,"status":"Free"}
+]

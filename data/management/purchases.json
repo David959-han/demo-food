@@ -1,0 +1,4 @@
+[
+  {"id":1,"supplier":"Fresh Foods Co.","item":"Cheese Burger","quantity":50,"total":"$600"},
+  {"id":2,"supplier":"Veggie Supplies","item":"Veggie Pizza","quantity":30,"total":"$450"}
+]

@@ -1,0 +1,5 @@
+[
+  {"id":1,"name":"John Doe","position":"Chef","shift":"Morning"},
+  {"id":2,"name":"Jane Smith","position":"Waiter","shift":"Evening"},
+  {"id":3,"name":"Ali Veli","position":"Manager","shift":"Full Day"}
+]

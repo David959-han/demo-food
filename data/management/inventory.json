@@ -1,0 +1,5 @@
+[
+  {"id":1,"name":"Cheese Burger","quantity":50,"price":"$12","status":"Available"},
+  {"id":2,"name":"Veggie Pizza","quantity":30,"price":"$15","status":"Available"},
+  {"id":3,"name":"Chicken Wrap","quantity":20,"price":"$10","status":"Low Stock"}
+]

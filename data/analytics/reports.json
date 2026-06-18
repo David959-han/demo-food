@@ -1,0 +1,5 @@
+[
+  {"id":1,"date":"2026-06-01","orders":50,"revenue":1500,"profit":400},
+  {"id":2,"date":"2026-06-02","orders":45,"revenue":1400,"profit":350},
+  {"id":3,"date":"2026-06-03","orders":60,"revenue":1700,"profit":500}
+]
