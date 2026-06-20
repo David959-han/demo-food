@@ -1,0 +1,7 @@
+[
+  { "id": "R-01", "name": "Alex Kim",    "phone": "+998 90 111 2233", "isOnline": true,  "activeOrderId": "DEL-003", "rating": 4.9, "deliveriesToday": 8  },
+  { "id": "R-02", "name": "Maria Soto",  "phone": "+998 93 444 5566", "isOnline": true,  "activeOrderId": "DEL-006", "rating": 4.7, "deliveriesToday": 6  },
+  { "id": "R-03", "name": "John Doe",    "phone": "+998 91 777 8899", "isOnline": true,  "activeOrderId": "DEL-008", "rating": 4.8, "deliveriesToday": 5  },
+  { "id": "R-04", "name": "Zara Patel",  "phone": "+998 99 321 6547", "isOnline": true,  "activeOrderId": null,       "rating": 4.6, "deliveriesToday": 3  },
+  { "id": "R-05", "name": "Sam Torres",  "phone": "+998 90 654 3219", "isOnline": false, "activeOrderId": null,       "rating": 4.5, "deliveriesToday": 0  }
+]

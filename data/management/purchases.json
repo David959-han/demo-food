@@ -1,4 +1,132 @@
 [
-  {"id":1,"supplier":"Fresh Foods Co.","item":"Cheese Burger","quantity":50,"total":"$600"},
-  {"id":2,"supplier":"Veggie Supplies","item":"Veggie Pizza","quantity":30,"total":"$450"}
+  {
+    "id": 1, "orderNumber": "PO-2026-001",
+    "supplierId": 1, "supplier": "FreshMeat Co.",
+    "status": "delivered", "totalAmount": 382.50,
+    "orderedAt": "2026-06-10", "expectedAt": "2026-06-13", "deliveredAt": "2026-06-13",
+    "items": [
+      { "name": "Chicken Breast", "quantity": 30, "unit": "kg", "unitPrice": 8.50,  "total": 255.00 },
+      { "name": "Ground Beef",    "quantity": 10, "unit": "kg", "unitPrice": 12.75, "total": 127.50 }
+    ]
+  },
+  {
+    "id": 2, "orderNumber": "PO-2026-002",
+    "supplierId": 2, "supplier": "Green Valley Farm",
+    "status": "delivered", "totalAmount": 147.00,
+    "orderedAt": "2026-06-11", "expectedAt": "2026-06-14", "deliveredAt": "2026-06-14",
+    "items": [
+      { "name": "Tomatoes",   "quantity": 25, "unit": "kg",  "unitPrice": 2.00, "total": 50.00 },
+      { "name": "Red Onion",  "quantity": 20, "unit": "kg",  "unitPrice": 1.50, "total": 30.00 },
+      { "name": "Bell Peppers","quantity": 12, "unit": "kg", "unitPrice": 3.50, "total": 42.00 },
+      { "name": "Mushrooms",  "quantity": 5,  "unit": "kg",  "unitPrice": 5.00, "total": 25.00 }
+    ]
+  },
+  {
+    "id": 3, "orderNumber": "PO-2026-003",
+    "supplierId": 3, "supplier": "Dairy World",
+    "status": "confirmed", "totalAmount": 465.00,
+    "orderedAt": "2026-06-15", "expectedAt": "2026-06-18", "deliveredAt": null,
+    "items": [
+      { "name": "Mozzarella Cheese", "quantity": 15, "unit": "kg", "unitPrice": 15.00, "total": 225.00 },
+      { "name": "Heavy Cream",       "quantity": 20, "unit": "l",  "unitPrice": 4.00,  "total": 80.00  },
+      { "name": "Whole Milk",        "quantity": 40, "unit": "l",  "unitPrice": 1.20,  "total": 48.00  },
+      { "name": "Unsalted Butter",   "quantity": 12, "unit": "kg", "unitPrice": 9.00,  "total": 108.00 },
+      { "name": "Parmesan",          "quantity": 2,  "unit": "kg", "unitPrice": 2.00,  "total": 4.00   }
+    ]
+  },
+  {
+    "id": 4, "orderNumber": "PO-2026-004",
+    "supplierId": 4, "supplier": "Mill & Grain",
+    "status": "pending", "totalAmount": 196.00,
+    "orderedAt": "2026-06-17", "expectedAt": "2026-06-20", "deliveredAt": null,
+    "items": [
+      { "name": "Bread Flour",  "quantity": 50, "unit": "kg", "unitPrice": 1.10, "total": 55.00 },
+      { "name": "Pasta (Penne)","quantity": 30, "unit": "kg", "unitPrice": 2.00, "total": 60.00 },
+      { "name": "Basmati Rice", "quantity": 20, "unit": "kg", "unitPrice": 2.80, "total": 56.00 },
+      { "name": "Semolina",     "quantity": 15, "unit": "kg", "unitPrice": 1.67, "total": 25.00 }
+    ]
+  },
+  {
+    "id": 5, "orderNumber": "PO-2026-005",
+    "supplierId": 5, "supplier": "AquaSupply",
+    "status": "delivered", "totalAmount": 87.50,
+    "orderedAt": "2026-06-12", "expectedAt": "2026-06-14", "deliveredAt": "2026-06-14",
+    "items": [
+      { "name": "Mineral Water", "quantity": 250, "unit": "l", "unitPrice": 0.35, "total": 87.50 }
+    ]
+  },
+  {
+    "id": 6, "orderNumber": "PO-2026-006",
+    "supplierId": 6, "supplier": "Ocean Select",
+    "status": "confirmed", "totalAmount": 330.00,
+    "orderedAt": "2026-06-16", "expectedAt": "2026-06-19", "deliveredAt": null,
+    "items": [
+      { "name": "Salmon Fillet", "quantity": 10, "unit": "kg", "unitPrice": 22.00, "total": 220.00 },
+      { "name": "Shrimp",        "quantity": 5,  "unit": "kg", "unitPrice": 22.00, "total": 110.00 }
+    ]
+  },
+  {
+    "id": 7, "orderNumber": "PO-2026-007",
+    "supplierId": 7, "supplier": "SaucePro",
+    "status": "delivered", "totalAmount": 126.00,
+    "orderedAt": "2026-06-08", "expectedAt": "2026-06-10", "deliveredAt": "2026-06-10",
+    "items": [
+      { "name": "Tomato Sauce", "quantity": 20, "unit": "l",  "unitPrice": 3.50, "total": 70.00 },
+      { "name": "Mayonnaise",   "quantity": 10, "unit": "kg", "unitPrice": 4.20, "total": 42.00 },
+      { "name": "BBQ Sauce",    "quantity": 7,  "unit": "l",  "unitPrice": 2.00, "total": 14.00 }
+    ]
+  },
+  {
+    "id": 8, "orderNumber": "PO-2026-008",
+    "supplierId": 8, "supplier": "BeanRoute",
+    "status": "pending", "totalAmount": 280.00,
+    "orderedAt": "2026-06-18", "expectedAt": "2026-06-22", "deliveredAt": null,
+    "notes": "Urgent — espresso beans running low",
+    "items": [
+      { "name": "Espresso Beans", "quantity": 10, "unit": "kg", "unitPrice": 28.00, "total": 280.00 }
+    ]
+  },
+  {
+    "id": 9, "orderNumber": "PO-2026-009",
+    "supplierId": 2, "supplier": "Green Valley Farm",
+    "status": "cancelled", "totalAmount": 85.00,
+    "orderedAt": "2026-06-05", "expectedAt": "2026-06-08", "deliveredAt": null,
+    "notes": "Supplier out of stock — reorder next week",
+    "items": [
+      { "name": "Iceberg Lettuce", "quantity": 30, "unit": "pcs", "unitPrice": 1.20, "total": 36.00 },
+      { "name": "Spinach",         "quantity": 10, "unit": "kg",  "unitPrice": 3.50, "total": 35.00 },
+      { "name": "Arugula",         "quantity": 7,  "unit": "kg",  "unitPrice": 2.00, "total": 14.00 }
+    ]
+  },
+  {
+    "id": 10, "orderNumber": "PO-2026-010",
+    "supplierId": 9, "supplier": "MedimportUZ",
+    "status": "delivered", "totalAmount": 225.00,
+    "orderedAt": "2026-06-09", "expectedAt": "2026-06-12", "deliveredAt": "2026-06-12",
+    "items": [
+      { "name": "Olive Oil",      "quantity": 20, "unit": "l",  "unitPrice": 7.50, "total": 150.00 },
+      { "name": "Balsamic Vinegar","quantity": 10, "unit": "l", "unitPrice": 7.50, "total": 75.00  }
+    ]
+  },
+  {
+    "id": 11, "orderNumber": "PO-2026-011",
+    "supplierId": 4, "supplier": "City Bakery",
+    "status": "delivered", "totalAmount": 96.00,
+    "orderedAt": "2026-06-16", "expectedAt": "2026-06-17", "deliveredAt": "2026-06-17",
+    "items": [
+      { "name": "Burger Buns",   "quantity": 200, "unit": "pcs", "unitPrice": 0.40, "total": 80.00 },
+      { "name": "Pita Bread",    "quantity": 80,  "unit": "pcs", "unitPrice": 0.20, "total": 16.00 }
+    ]
+  },
+  {
+    "id": 12, "orderNumber": "PO-2026-012",
+    "supplierId": 1, "supplier": "FreshMeat Co.",
+    "status": "confirmed", "totalAmount": 510.00,
+    "orderedAt": "2026-06-18", "expectedAt": "2026-06-21", "deliveredAt": null,
+    "items": [
+      { "name": "Chicken Breast",   "quantity": 40, "unit": "kg", "unitPrice": 8.50,  "total": 340.00 },
+      { "name": "Chicken Wings",    "quantity": 10, "unit": "kg", "unitPrice": 7.00,  "total": 70.00  },
+      { "name": "Beef Tenderloin",  "quantity": 5,  "unit": "kg", "unitPrice": 20.00, "total": 100.00 }
+    ]
+  }
 ]

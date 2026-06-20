@@ -1,0 +1,90 @@
+<svg viewBox="0 0 480 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background grid -->
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#F97316" stroke-width="0.3" stroke-opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="180" fill="url(#grid)"/>
+
+  <!-- Revenue line chart panel -->
+  <rect x="240" y="16" width="220" height="110" rx="10" fill="#1A1D26" fill-opacity="0.95" stroke="#F97316" stroke-width="0.8" stroke-opacity="0.5"/>
+  <!-- Chart label -->
+  <text x="256" y="34" fill="#F97316" font-size="8" font-weight="600" font-family="Inter,sans-serif">REVENUE</text>
+  <text x="256" y="44" fill="#8B92A5" font-size="6" font-family="Inter,sans-serif">This week</text>
+  <!-- Revenue value -->
+  <text x="340" y="36" fill="#F1F3F9" font-size="14" font-weight="700" font-family="Inter,sans-serif">$24,830</text>
+  <rect x="360" y="26" width="28" height="12" rx="3" fill="#0A2E22"/>
+  <text x="363" y="35" fill="#34D399" font-size="7" font-weight="600" font-family="Inter,sans-serif">+12.4%</text>
+
+  <!-- Chart axes -->
+  <line x1="256" y1="115" x2="448" y2="115" stroke="#2A2D3A" stroke-width="1"/>
+  <line x1="256" y1="55"  x2="256" y2="115" stroke="#2A2D3A" stroke-width="1"/>
+
+  <!-- Revenue area fill -->
+  <path d="M260 105 L280 90 L305 80 L330 68 L355 72 L380 58 L405 52 L430 44 L444 42 L444 115 L260 115 Z"
+        fill="#F97316" fill-opacity="0.10"/>
+  <!-- Revenue line -->
+  <path d="M260 105 L280 90 L305 80 L330 68 L355 72 L380 58 L405 52 L430 44 L444 42"
+        stroke="#F97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Profit area fill -->
+  <path d="M260 112 L280 106 L305 100 L330 92 L355 95 L380 86 L405 80 L430 74 L444 72 L444 115 L260 115 Z"
+        fill="#10B981" fill-opacity="0.08"/>
+  <!-- Profit line -->
+  <path d="M260 112 L280 106 L305 100 L330 92 L355 95 L380 86 L405 80 L430 74 L444 72"
+        stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-dasharray="4 2"/>
+
+  <!-- Data points on revenue line -->
+  <circle cx="380" cy="58" r="3" fill="#F97316"/>
+  <circle cx="444" cy="42" r="3" fill="#F97316"/>
+
+  <!-- X-axis labels -->
+  <text x="260" y="123" fill="#555B6E" font-size="5" font-family="Inter,sans-serif">Mon</text>
+  <text x="300" y="123" fill="#555B6E" font-size="5" font-family="Inter,sans-serif">Tue</text>
+  <text x="325" y="123" fill="#555B6E" font-size="5" font-family="Inter,sans-serif">Wed</text>
+  <text x="350" y="123" fill="#555B6E" font-size="5" font-family="Inter,sans-serif">Thu</text>
+  <text x="375" y="123" fill="#555B6E" font-size="5" font-family="Inter,sans-serif">Fri</text>
+  <text x="400" y="123" fill="#555B6E" font-size="5" font-family="Inter,sans-serif">Sat</text>
+  <text x="428" y="123" fill="#555B6E" font-size="5" font-family="Inter,sans-serif">Sun</text>
+
+  <!-- Legend -->
+  <circle cx="260" cy="134" r="3" fill="#F97316"/>
+  <text x="266" y="137" fill="#8B92A5" font-size="6" font-family="Inter,sans-serif">Revenue</text>
+  <line x1="296" y1="134" x2="304" y2="134" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 1"/>
+  <text x="308" y="137" fill="#8B92A5" font-size="6" font-family="Inter,sans-serif">Profit</text>
+
+  <!-- KPI cards row -->
+  <!-- Card 1: Orders -->
+  <rect x="240" y="142" width="48" height="28" rx="6" fill="#1A1D26" stroke="#2A2D3A" stroke-width="0.8"/>
+  <rect x="245" y="147" width="8" height="8" rx="2" fill="#2E1A0A"/>
+  <path d="M247 153 L249 151 L251 153 L249 149 Z" fill="#F97316" transform="translate(0, 0)"/>
+  <text x="255" y="154" fill="#8B92A5" font-size="5" font-family="Inter,sans-serif">Orders</text>
+  <text x="245" y="164" fill="#F1F3F9" font-size="8" font-weight="700" font-family="Inter,sans-serif">1,284</text>
+
+  <!-- Card 2: Customers -->
+  <rect x="294" y="142" width="48" height="28" rx="6" fill="#1A1D26" stroke="#2A2D3A" stroke-width="0.8"/>
+  <rect x="299" y="147" width="8" height="8" rx="2" fill="#2E1E04"/>
+  <circle cx="303" cy="151" r="2" fill="#F59E0B"/>
+  <text x="309" y="154" fill="#8B92A5" font-size="5" font-family="Inter,sans-serif">Guests</text>
+  <text x="299" y="164" fill="#F1F3F9" font-size="8" font-weight="700" font-family="Inter,sans-serif">3,612</text>
+
+  <!-- Card 3: Revenue -->
+  <rect x="348" y="142" width="52" height="28" rx="6" fill="#1A1D26" stroke="#F97316" stroke-width="0.8" stroke-opacity="0.6"/>
+  <rect x="353" y="147" width="8" height="8" rx="2" fill="#2E1A0A"/>
+  <text x="354" y="153" fill="#F97316" font-size="7" font-weight="700" font-family="Inter,sans-serif">$</text>
+  <text x="363" y="154" fill="#8B92A5" font-size="5" font-family="Inter,sans-serif">Revenue</text>
+  <text x="353" y="164" fill="#FB923C" font-size="8" font-weight="700" font-family="Inter,sans-serif">$24,830</text>
+
+  <!-- Card 4: Margin -->
+  <rect x="406" y="142" width="48" height="28" rx="6" fill="#1A1D26" stroke="#2A2D3A" stroke-width="0.8"/>
+  <rect x="411" y="147" width="8" height="8" rx="2" fill="#0A2E22"/>
+  <text x="412" y="153" fill="#34D399" font-size="7" font-weight="600" font-family="Inter,sans-serif">%</text>
+  <text x="421" y="154" fill="#8B92A5" font-size="5" font-family="Inter,sans-serif">Margin</text>
+  <text x="411" y="164" fill="#34D399" font-size="8" font-weight="700" font-family="Inter,sans-serif">34.2%</text>
+
+  <!-- Floating badge top-right -->
+  <rect x="402" y="18" width="60" height="16" rx="4" fill="#F97316" fill-opacity="0.15" stroke="#F97316" stroke-width="0.8" stroke-opacity="0.6"/>
+  <circle cx="410" cy="26" r="3" fill="#34D399"/>
+  <text x="416" y="29" fill="#F97316" font-size="6" font-weight="600" font-family="Inter,sans-serif">Live • Today</text>
+</svg>

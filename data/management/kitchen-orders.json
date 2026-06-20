@@ -1,0 +1,175 @@
+[
+  {
+    "id": "ORD-201",
+    "tableNumber": 3,
+    "items": [
+      { "name": "Classic Burger",   "quantity": 2 },
+      { "name": "Lemonade",         "quantity": 2 }
+    ],
+    "status": "new",
+    "priority": "normal",
+    "minutesAgo": 1
+  },
+  {
+    "id": "ORD-202",
+    "tableNumber": 7,
+    "items": [
+      { "name": "Margherita Pizza", "quantity": 1 },
+      { "name": "Caesar Salad",     "quantity": 2 },
+      { "name": "Coke",             "quantity": 2 }
+    ],
+    "status": "new",
+    "priority": "urgent",
+    "minutesAgo": 3,
+    "notes": "Allergen: nuts"
+  },
+  {
+    "id": "ORD-203",
+    "tableNumber": 17,
+    "items": [
+      { "name": "Pepperoni Pizza",  "quantity": 2 },
+      { "name": "Fresh Orange Juice","quantity": 2 }
+    ],
+    "status": "new",
+    "priority": "vip",
+    "minutesAgo": 2
+  },
+  {
+    "id": "ORD-204",
+    "tableNumber": 1,
+    "items": [
+      { "name": "Chicken Wrap",     "quantity": 3 },
+      { "name": "Coke",             "quantity": 3 }
+    ],
+    "status": "new",
+    "priority": "normal",
+    "minutesAgo": 4
+  },
+  {
+    "id": "ORD-205",
+    "tableNumber": 9,
+    "items": [
+      { "name": "Cheese Burger",    "quantity": 2 },
+      { "name": "Mushroom Burger",  "quantity": 1 },
+      { "name": "Lemonade",         "quantity": 3 }
+    ],
+    "status": "preparing",
+    "priority": "normal",
+    "minutesAgo": 8
+  },
+  {
+    "id": "ORD-206",
+    "tableNumber": 5,
+    "items": [
+      { "name": "Margherita Pizza", "quantity": 2 },
+      { "name": "Greek Salad",      "quantity": 1 }
+    ],
+    "status": "preparing",
+    "priority": "urgent",
+    "minutesAgo": 13,
+    "notes": "Table waiting"
+  },
+  {
+    "id": "ORD-207",
+    "tableNumber": 16,
+    "items": [
+      { "name": "Pepperoni Pizza",  "quantity": 3 },
+      { "name": "Caesar Salad",     "quantity": 2 },
+      { "name": "Fresh Orange Juice","quantity": 4 },
+      { "name": "Classic Burger",   "quantity": 1 }
+    ],
+    "status": "preparing",
+    "priority": "vip",
+    "minutesAgo": 7
+  },
+  {
+    "id": "ORD-208",
+    "tableNumber": 12,
+    "items": [
+      { "name": "Falafel Wrap",     "quantity": 2 },
+      { "name": "Lemonade",         "quantity": 2 }
+    ],
+    "status": "preparing",
+    "priority": "normal",
+    "minutesAgo": 15
+  },
+  {
+    "id": "ORD-209",
+    "tableNumber": 4,
+    "items": [
+      { "name": "Chicken Wrap",     "quantity": 1 },
+      { "name": "Coke",             "quantity": 1 }
+    ],
+    "status": "preparing",
+    "priority": "normal",
+    "minutesAgo": 6
+  },
+  {
+    "id": "ORD-210",
+    "tableNumber": 2,
+    "items": [
+      { "name": "Classic Burger",   "quantity": 2 },
+      { "name": "Lemonade",         "quantity": 2 }
+    ],
+    "status": "ready",
+    "priority": "normal",
+    "minutesAgo": 18
+  },
+  {
+    "id": "ORD-211",
+    "tableNumber": 8,
+    "items": [
+      { "name": "Margherita Pizza", "quantity": 1 },
+      { "name": "Caesar Salad",     "quantity": 1 },
+      { "name": "Fresh Orange Juice","quantity": 2 }
+    ],
+    "status": "ready",
+    "priority": "urgent",
+    "minutesAgo": 23
+  },
+  {
+    "id": "ORD-212",
+    "tableNumber": 19,
+    "items": [
+      { "name": "Pepperoni Pizza",  "quantity": 2 },
+      { "name": "Greek Salad",      "quantity": 2 },
+      { "name": "Coke",             "quantity": 4 }
+    ],
+    "status": "ready",
+    "priority": "vip",
+    "minutesAgo": 21
+  },
+  {
+    "id": "ORD-213",
+    "tableNumber": 11,
+    "items": [
+      { "name": "Cheese Burger",    "quantity": 1 },
+      { "name": "Coke",             "quantity": 1 }
+    ],
+    "status": "ready",
+    "priority": "normal",
+    "minutesAgo": 16
+  },
+  {
+    "id": "ORD-214",
+    "tableNumber": 6,
+    "items": [
+      { "name": "Chicken Wrap",     "quantity": 2 },
+      { "name": "Lemonade",         "quantity": 2 }
+    ],
+    "status": "served",
+    "priority": "normal",
+    "minutesAgo": 35
+  },
+  {
+    "id": "ORD-215",
+    "tableNumber": 14,
+    "items": [
+      { "name": "Margherita Pizza", "quantity": 1 },
+      { "name": "Caesar Salad",     "quantity": 1 }
+    ],
+    "status": "served",
+    "priority": "normal",
+    "minutesAgo": 42
+  }
+]

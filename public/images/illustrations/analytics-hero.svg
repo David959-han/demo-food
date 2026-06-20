@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" fill="none">
+  <defs>
+    <linearGradient id="ah-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="ah-line1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F97316" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="ah-line2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#10B981" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="ah-fill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#F97316" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ah-fill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#10B981" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ah-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="ah-blur"><feGaussianBlur stdDeviation="10"/></filter>
+    <clipPath id="ah-clip"><rect x="220" y="25" width="255" height="155" rx="12"/></clipPath>
+  </defs>
+
+  <rect width="480" height="180" fill="url(#ah-bg)"/>
+  <ellipse cx="340" cy="90" rx="140" ry="80" fill="url(#ah-glow)" filter="url(#ah-blur)"/>
+
+  <!-- Chart background panel -->
+  <rect x="220" y="25" width="255" height="155" rx="12" fill="#111318" stroke="#2A2D3A" stroke-width="1.5"/>
+
+  <!-- Grid lines -->
+  <g clip-path="url(#ah-clip)">
+    <line x1="220" y1="60"  x2="475" y2="60"  stroke="#1E2130" stroke-width="1"/>
+    <line x1="220" y1="90"  x2="475" y2="90"  stroke="#1E2130" stroke-width="1"/>
+    <line x1="220" y1="120" x2="475" y2="120" stroke="#1E2130" stroke-width="1"/>
+    <line x1="220" y1="150" x2="475" y2="150" stroke="#1E2130" stroke-width="1"/>
+
+    <!-- Revenue fill area -->
+    <path d="M230,140 L255,125 L280,132 L305,108 L330,115 L355,88 L380,95 L405,68 L430,75 L455,52 L475,58 L475,160 L230,160 Z"
+          fill="url(#ah-fill1)"/>
+    <!-- Profit fill area -->
+    <path d="M230,152 L255,143 L280,147 L305,133 L330,138 L355,118 L380,124 L405,104 L430,109 L455,89 L475,94 L475,160 L230,160 Z"
+          fill="url(#ah-fill2)"/>
+
+    <!-- Revenue line -->
+    <path d="M230,140 L255,125 L280,132 L305,108 L330,115 L355,88 L380,95 L405,68 L430,75 L455,52 L475,58"
+          stroke="url(#ah-line1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Profit line -->
+    <path d="M230,152 L255,143 L280,147 L305,133 L330,138 L355,118 L380,124 L405,104 L430,109 L455,89 L475,94"
+          stroke="url(#ah-line2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-dasharray="0"/>
+
+    <!-- Data points revenue -->
+    <circle cx="355" cy="88"  r="3.5" fill="#F97316"/>
+    <circle cx="405" cy="68"  r="3.5" fill="#F97316"/>
+    <circle cx="455" cy="52"  r="3.5" fill="#F97316"/>
+    <!-- Data points profit -->
+    <circle cx="355" cy="118" r="2.5" fill="#10B981"/>
+    <circle cx="405" cy="104" r="2.5" fill="#10B981"/>
+    <circle cx="455" cy="89"  r="2.5" fill="#10B981"/>
+  </g>
+
+  <!-- Chart header -->
+  <line x1="220" y1="43" x2="475" y2="43" stroke="#1E2130" stroke-width="1"/>
+  <!-- Legend dots -->
+  <circle cx="233" cy="35" r="4" fill="#F97316"/>
+  <rect x="240" y="31" width="22" height="8" rx="2" fill="#2A2D3A"/>
+  <circle cx="271" cy="35" r="4" fill="#10B981"/>
+  <rect x="278" y="31" width="22" height="8" rx="2" fill="#2A2D3A"/>
+
+  <!-- Mini donut chart (right upper) -->
+  <!-- Donut bg -->
+  <circle cx="448" cy="100" r="22" fill="#1A1D26" stroke="#2A2D3A" stroke-width="1"/>
+  <!-- Donut arcs (simplified segments) -->
+  <circle cx="448" cy="100" r="14" fill="none" stroke="#F97316"  stroke-width="6" stroke-dasharray="26 62" stroke-dashoffset="0"   transform="rotate(-90 448 100)"/>
+  <circle cx="448" cy="100" r="14" fill="none" stroke="#3B82F6"  stroke-width="6" stroke-dasharray="20 68" stroke-dashoffset="-26"  transform="rotate(-90 448 100)"/>
+  <circle cx="448" cy="100" r="14" fill="none" stroke="#10B981"  stroke-width="6" stroke-dasharray="13 75" stroke-dashoffset="-46"  transform="rotate(-90 448 100)"/>
+  <circle cx="448" cy="100" r="14" fill="none" stroke="#FBBF24"  stroke-width="6" stroke-dasharray="10 78" stroke-dashoffset="-59"  transform="rotate(-90 448 100)"/>
+  <circle cx="448" cy="100" r="14" fill="none" stroke="#6366F1"  stroke-width="6" stroke-dasharray="9  79" stroke-dashoffset="-69"  transform="rotate(-90 448 100)"/>
+  <circle cx="448" cy="100" r="8" fill="#111318"/>
+
+  <!-- Mini bar chart (right lower) -->
+  <rect x="228" y="150" width="6"  height="6"  rx="2" fill="#F97316" opacity="0.9"/>
+  <rect x="238" y="145" width="6"  height="11" rx="2" fill="#F97316" opacity="0.8"/>
+  <rect x="248" y="140" width="6"  height="16" rx="2" fill="#F97316" opacity="0.9"/>
+  <rect x="258" y="143" width="6"  height="13" rx="2" fill="#10B981" opacity="0.7"/>
+  <rect x="268" y="136" width="6"  height="20" rx="2" fill="#10B981" opacity="0.8"/>
+
+  <!-- KPI mini cards (below chart) -->
+  <rect x="222" y="168" width="58" height="10" rx="3" fill="#1A1D26" stroke="#2A2D3A" stroke-width="1"/>
+  <rect x="285" y="168" width="58" height="10" rx="3" fill="#1A1D26" stroke="#2A2D3A" stroke-width="1"/>
+  <rect x="348" y="168" width="58" height="10" rx="3" fill="#1A1D26" stroke="#2A2D3A" stroke-width="1"/>
+
+  <!-- Decorative dots grid (left upper) -->
+  <g opacity="0.14">
+    <circle cx="228" cy="30" r="2" fill="#3B82F6"/>
+    <circle cx="240" cy="30" r="2" fill="#3B82F6"/>
+    <circle cx="252" cy="30" r="2" fill="#3B82F6"/>
+    <circle cx="228" cy="42" r="2" fill="#3B82F6"/>
+    <circle cx="240" cy="42" r="2" fill="#3B82F6"/>
+    <circle cx="252" cy="42" r="2" fill="#3B82F6"/>
+  </g>
+
+  <!-- Left fade for text -->
+  <rect width="216" height="180" fill="url(#ah-bg)" opacity="0.65"/>
+</svg>

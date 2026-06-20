@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" fill="none">
+  <defs>
+    <linearGradient id="ph-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="ph-truck" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#EA580C" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="ph-road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="ph-shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#F97316" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Road / ground line -->
+  <rect x="0" y="138" width="480" height="4" rx="2" fill="url(#ph-road)"/>
+  <!-- Dashed center line -->
+  <line x1="20"  y1="140" x2="60"  y2="140" stroke="#F97316" stroke-width="1.5" stroke-dasharray="10 8" opacity="0.2"/>
+  <line x1="80"  y1="140" x2="160" y2="140" stroke="#F97316" stroke-width="1.5" stroke-dasharray="10 8" opacity="0.2"/>
+  <line x1="180" y1="140" x2="300" y2="140" stroke="#F97316" stroke-width="1.5" stroke-dasharray="10 8" opacity="0.2"/>
+  <line x1="320" y1="140" x2="460" y2="140" stroke="#F97316" stroke-width="1.5" stroke-dasharray="10 8" opacity="0.2"/>
+
+  <!-- ===== DELIVERY TRUCK (center-right) ===== -->
+  <!-- Trailer box -->
+  <rect x="210" y="80" width="140" height="58" rx="6" fill="url(#ph-truck)" filter="url(#ph-shadow)"/>
+  <!-- Trailer door lines -->
+  <line x1="281" y1="80" x2="281" y2="138" stroke="white" stroke-width="1" opacity="0.3"/>
+  <rect x="265" y="95" width="6" height="10" rx="1" fill="white" opacity="0.4"/>
+  <!-- Trailer windows/vents -->
+  <rect x="218" y="88" width="20" height="8" rx="2"  fill="white" opacity="0.12"/>
+  <rect x="244" y="88" width="20" height="8" rx="2"  fill="white" opacity="0.12"/>
+  <!-- Truck cab -->
+  <rect x="340" y="92" width="68" height="46" rx="6" fill="#EA580C" opacity="0.9"/>
+  <!-- Cab windshield -->
+  <rect x="350" y="97" width="30" height="20" rx="3" fill="white" opacity="0.25"/>
+  <!-- Headlight -->
+  <circle cx="400" cy="120" r="5" fill="#FCD34D" opacity="0.8"/>
+  <circle cx="400" cy="120" r="3" fill="white" opacity="0.9"/>
+  <!-- Cab door details -->
+  <rect x="355" y="118" width="12" height="16" rx="2" fill="white" opacity="0.1"/>
+  <!-- Exhaust pipe -->
+  <rect x="403" y="78" width="4" height="18" rx="2" fill="#9A3412" opacity="0.6"/>
+  <!-- Smoke puffs -->
+  <circle cx="405" cy="72" r="4" fill="#9A3412" opacity="0.15"/>
+  <circle cx="409" cy="67" r="3" fill="#9A3412" opacity="0.1"/>
+  <!-- Truck wheels -->
+  <circle cx="248" cy="138" r="13" fill="#1E293B" opacity="0.8"/>
+  <circle cx="248" cy="138" r="8"  fill="#334155" opacity="0.9"/>
+  <circle cx="248" cy="138" r="3"  fill="#64748B"/>
+  <circle cx="308" cy="138" r="13" fill="#1E293B" opacity="0.8"/>
+  <circle cx="308" cy="138" r="8"  fill="#334155" opacity="0.9"/>
+  <circle cx="308" cy="138" r="3"  fill="#64748B"/>
+  <circle cx="375" cy="138" r="13" fill="#1E293B" opacity="0.8"/>
+  <circle cx="375" cy="138" r="8"  fill="#334155" opacity="0.9"/>
+  <circle cx="375" cy="138" r="3"  fill="#64748B"/>
+
+  <!-- ===== WAREHOUSE / BOXES (left side) ===== -->
+  <!-- Building -->
+  <rect x="20"  y="70" width="80" height="68" rx="4" fill="#F97316" opacity="0.08" stroke="#F97316" stroke-width="1.5" opacity_stroke="0.2"/>
+  <!-- Warehouse door -->
+  <rect x="42"  y="100" width="36" height="38" rx="2" fill="#F97316" opacity="0.12"/>
+  <rect x="57"  y="105" width="6"  height="28" rx="1" fill="#F97316" opacity="0.2"/>
+  <!-- Warehouse windows -->
+  <rect x="24"  y="78"  width="16" height="10" rx="2" fill="#F97316" opacity="0.15"/>
+  <rect x="82"  y="78"  width="16" height="10" rx="2" fill="#F97316" opacity="0.15"/>
+  <!-- Warehouse roof triangle -->
+  <path d="M 16 72 L 60 52 L 104 72" stroke="#F97316" stroke-width="2" fill="none" opacity="0.3"/>
+  <!-- Roof chimney -->
+  <rect x="54"  y="52"  width="8"  height="12" rx="1" fill="#F97316" opacity="0.2"/>
+
+  <!-- Stacked boxes beside warehouse -->
+  <rect x="110" y="108" width="30" height="22" rx="3" fill="#10B981" opacity="0.15" stroke="#10B981" stroke-width="1.2"/>
+  <line x1="125" y1="108" x2="125" y2="130" stroke="#10B981" stroke-width="0.8" opacity="0.3"/>
+  <rect x="116" y="94"  width="22" height="16" rx="3" fill="#10B981" opacity="0.12" stroke="#10B981" stroke-width="1.2"/>
+  <line x1="127" y1="94" x2="127" y2="110" stroke="#10B981" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- ===== ORDER CARD floating ===== -->
+  <rect x="155" y="30" width="88" height="52" rx="8" fill="white" opacity="0.06" stroke="#F97316" stroke-width="1" opacity_stroke="0.3"/>
+  <!-- Card lines -->
+  <rect x="162" y="38" width="40" height="4" rx="2" fill="#F97316" opacity="0.35"/>
+  <rect x="162" y="46" width="28" height="3" rx="1.5" fill="#F97316" opacity="0.2"/>
+  <rect x="162" y="53" width="55" height="2.5" rx="1.25" fill="#F97316" opacity="0.15"/>
+  <rect x="162" y="58" width="45" height="2.5" rx="1.25" fill="#10B981" opacity="0.2"/>
+  <!-- Checkmark badge -->
+  <circle cx="226" cy="40" r="8" fill="#10B981" opacity="0.25"/>
+  <path d="M222 40 l3 3 l5-5" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.7"/>
+
+  <!-- ===== ROUTE LINE (dashed, truck to warehouse) ===== -->
+  <path d="M 100 120 C 130 115 160 118 210 120" stroke="#F97316" stroke-width="1.5" stroke-dasharray="5 4" fill="none" opacity="0.3"/>
+
+  <!-- ===== KPI CHIPS (top right) ===== -->
+  <!-- Chip 1: Orders -->
+  <rect x="360" y="22" width="84" height="26" rx="6" fill="#F97316" opacity="0.12" stroke="#F97316" stroke-width="1" opacity_stroke="0.2"/>
+  <rect x="367" y="30" width="12" height="12" rx="2" fill="#F97316" opacity="0.4"/>
+  <rect x="384" y="32" width="30" height="3"  rx="1.5" fill="#F97316" opacity="0.3"/>
+  <rect x="384" y="37" width="20" height="2"  rx="1"   fill="#F97316" opacity="0.2"/>
+
+  <!-- Chip 2: Suppliers -->
+  <rect x="360" y="54" width="84" height="26" rx="6" fill="#10B981" opacity="0.10" stroke="#10B981" stroke-width="1" opacity_stroke="0.2"/>
+  <rect x="367" y="62" width="12" height="12" rx="2" fill="#10B981" opacity="0.4"/>
+  <rect x="384" y="64" width="30" height="3"  rx="1.5" fill="#10B981" opacity="0.3"/>
+  <rect x="384" y="69" width="18" height="2"  rx="1"   fill="#10B981" opacity="0.2"/>
+
+  <!-- Decorative dots -->
+  <circle cx="22"  cy="30"  r="3" fill="#F97316" opacity="0.2"/>
+  <circle cx="460" cy="25"  r="2" fill="#10B981" opacity="0.25"/>
+  <circle cx="18"  cy="150" r="2" fill="#F97316" opacity="0.15"/>
+  <circle cx="468" cy="155" r="2" fill="#10B981" opacity="0.2"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="emp-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Decorative dots -->
+  <circle cx="20"  cy="30"  r="2.5" fill="#F97316" opacity="0.25"/>
+  <circle cx="140" cy="40"  r="2"   fill="#10B981" opacity="0.3"/>
+  <circle cx="16"  cy="120" r="2"   fill="#F97316" opacity="0.2"/>
+  <circle cx="144" cy="118" r="2.5" fill="#10B981" opacity="0.25"/>
+
+  <!-- Person 1 (left, smaller) -->
+  <circle cx="44" cy="60" r="16" fill="url(#emp-grad)" stroke="#F97316" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="44" cy="54" r="8"  fill="#F97316" opacity="0.2"/>
+  <path   d="M 26 76 Q 26 68 44 68 Q 62 68 62 76" fill="#F97316" opacity="0.15"/>
+  <!-- Badge line -->
+  <rect x="32" y="78" width="24" height="4" rx="2" fill="#F97316" opacity="0.15"/>
+
+  <!-- Person 2 (center, main) -->
+  <circle cx="80" cy="52" r="24" fill="url(#emp-grad)" stroke="#F97316" stroke-width="2" opacity="0.7"/>
+  <circle cx="80" cy="42" r="13" fill="#F97316" opacity="0.25"/>
+  <path   d="M 54 76 Q 54 64 80 64 Q 106 64 106 76" fill="#F97316" opacity="0.2"/>
+  <!-- Crown / star on center person -->
+  <path d="M 74 32 L 76 26 L 80 30 L 84 26 L 86 32 L 80 30 Z" fill="#F97316" opacity="0.5"/>
+  <!-- Badge -->
+  <rect x="62" y="78" width="36" height="5" rx="2.5" fill="#F97316" opacity="0.2"/>
+
+  <!-- Person 3 (right, smaller) -->
+  <circle cx="116" cy="60" r="16" fill="url(#emp-grad)" stroke="#10B981" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="116" cy="54" r="8"  fill="#10B981" opacity="0.2"/>
+  <path   d="M 98 76 Q 98 68 116 68 Q 134 68 134 76" fill="#10B981" opacity="0.15"/>
+  <rect x="104" y="78" width="24" height="4" rx="2" fill="#10B981" opacity="0.15"/>
+
+  <!-- Search circle + magnifier -->
+  <circle cx="80" cy="112" r="26" fill="#F97316" opacity="0.06" stroke="#F97316" stroke-width="1.5" stroke-dasharray="4 3" opacity_stroke="0.3"/>
+  <circle cx="78" cy="110" r="12" fill="none" stroke="#F97316" stroke-width="2.5" opacity="0.4"/>
+  <line   x1="87" y1="119" x2="96" y2="128" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- Question mark inside magnifier -->
+  <text x="78" y="115" text-anchor="middle" font-size="10" font-weight="700" fill="#F97316" font-family="system-ui" opacity="0.5">?</text>
+</svg>

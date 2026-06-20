@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FoodERP — Restaurant Management Demo
+
+A full-featured restaurant ERP portfolio demo. No backend, no database — all data lives in JSON files under `data/`.
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 16 (App Router) |
+| UI | React 19, Tailwind CSS v4 |
+| State | Zustand v5 (with `persist`) |
+| Animation | Framer Motion v12 |
+| Charts | Chart.js + react-chartjs-2 |
+| Icons | Lucide React |
+| Language | TypeScript 5 |
+
+## Features
+
+- **POS** — Point-of-sale with cart, table selection, discount, payment
+- **Kitchen Display** — Real-time order board with status advancement
+- **Delivery** — Order tracking with status timeline
+- **Menu** — Grid/table view, category filter, Unsplash images
+- **Inventory** — Stock tracking with low-stock alerts
+- **Employees** — Staff roster with role badges and performance ratings
+- **Loyalty** — Member tiers (Bronze → Diamond), points, progress bars
+- **Purchases** — Supplier orders with status tracking
+- **Tables** — Table status map with real-time availability
+- **Analytics** — Revenue trends, category breakdown, peak hours, CSV export
+- **Notifications** — Bell panel with read/unread state (Framer Motion)
+- **Theme** — Dark / Light mode toggle
+- **i18n** — English, O'zbekcha, Русский
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) and select any role on the login screen — no password required.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/            Next.js App Router pages
+components/     UI components (layout, domain, shared)
+context/        React context (i18n)
+data/           JSON data files (single source of truth)
+hooks/          Custom hooks
+lib/            Utilities (i18n resolver, cn, etc.)
+locales/        Translation files (en / uz / ru)
+public/         Static assets and SVG illustrations
+services/       Data access layer (reads JSON, returns typed data)
+store/          Zustand store
+types/          TypeScript type definitions
+```
 
-## Learn More
+## Architecture Notes
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- No API routes — `services/` functions read from `data/*.json` via `fetch('/data/...')`
+- Zustand `persist` stores cart, auth, theme, notifications in `localStorage`
+- Hydration safety: all persisted-state-dependent UI uses `mounted` guard to match SSR output
+- Page transitions: `AnimatePresence` in `Layout.tsx` wraps `<main>` keyed by pathname

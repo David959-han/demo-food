@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="pe-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F97316" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shopping cart body -->
+  <path d="M 32 44 L 40 44 L 52 100 L 120 100 L 132 64 L 52 64" stroke="#F97316" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.45"/>
+  <!-- Cart inside dashes (empty) -->
+  <line x1="68"  y1="72" x2="68"  y2="92" stroke="#F97316" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.25"/>
+  <line x1="84"  y1="72" x2="84"  y2="92" stroke="#F97316" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.25"/>
+  <line x1="100" y1="72" x2="100" y2="92" stroke="#F97316" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.25"/>
+  <!-- Cart basket fill -->
+  <path d="M 52 64 L 52 100 L 120 100 L 132 64 Z" fill="url(#pe-grad)" opacity="0.5"/>
+  <!-- Cart wheels -->
+  <circle cx="68"  cy="112" r="7" fill="none" stroke="#F97316" stroke-width="2" opacity="0.4"/>
+  <circle cx="68"  cy="112" r="2.5" fill="#F97316" opacity="0.3"/>
+  <circle cx="108" cy="112" r="7" fill="none" stroke="#F97316" stroke-width="2" opacity="0.4"/>
+  <circle cx="108" cy="112" r="2.5" fill="#F97316" opacity="0.3"/>
+
+  <!-- Floating items trying to fall in (out of reach) -->
+  <!-- Box 1 -->
+  <rect x="20" y="20" width="18" height="14" rx="3" fill="#F97316" opacity="0.12" stroke="#F97316" stroke-width="1.2" transform="rotate(-8 29 27)"/>
+  <line x1="29" y1="20" x2="29" y2="34" stroke="#F97316" stroke-width="0.7" opacity="0.3" transform="rotate(-8 29 27)"/>
+  <!-- Box 2 -->
+  <rect x="116" y="22" width="22" height="16" rx="3" fill="#10B981" opacity="0.12" stroke="#10B981" stroke-width="1.2" transform="rotate(10 127 30)"/>
+  <line x1="127" y1="22" x2="127" y2="38" stroke="#10B981" stroke-width="0.7" opacity="0.3" transform="rotate(10 127 30)"/>
+
+  <!-- Document/receipt floating -->
+  <rect x="128" y="58" width="18" height="24" rx="3" fill="#F97316" opacity="0.08" stroke="#F97316" stroke-width="1.2"/>
+  <line x1="132" y1="64" x2="142" y2="64" stroke="#F97316" stroke-width="1" opacity="0.3"/>
+  <line x1="132" y1="68" x2="142" y2="68" stroke="#F97316" stroke-width="1" opacity="0.3"/>
+  <line x1="132" y1="72" x2="138" y2="72" stroke="#F97316" stroke-width="1" opacity="0.25"/>
+
+  <!-- Plus symbol (add items suggestion) -->
+  <circle cx="80" cy="80" r="10" fill="#F97316" opacity="0.08" stroke="#F97316" stroke-width="1.2" stroke-dasharray="3 2"/>
+  <line x1="80" y1="75" x2="80" y2="85" stroke="#F97316" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+  <line x1="75" y1="80" x2="85" y2="80" stroke="#F97316" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Decorative dots -->
+  <circle cx="16"  cy="80"  r="2"   fill="#F97316" opacity="0.2"/>
+  <circle cx="144" cy="110" r="1.5" fill="#10B981" opacity="0.25"/>
+  <circle cx="18"  cy="130" r="1.5" fill="#F97316" opacity="0.15"/>
+</svg>

@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1, "name": "Elena Rodriguez",
+    "phone": "+998 90 111 0001", "email": "elena.rodriguez@mail.com",
+    "avatar": "/images/loyalty/member-01.jpg",
+    "tier": "platinum", "status": "active",
+    "points": 3240, "totalOrders": 87, "totalSpent": 4125.50,
+    "joinedAt": "2021-05-10", "lastVisit": "2026-06-18",
+    "history": [
+      {"id":1,"type":"earned","points":120,"description":"Order #ORD-2026-201","date":"2026-06-18"},
+      {"id":2,"type":"bonus", "points":500,"description":"Anniversary bonus — 5 years","date":"2026-06-01"},
+      {"id":3,"type":"earned","points":85, "description":"Order #ORD-2026-188","date":"2026-05-28"},
+      {"id":4,"type":"redeemed","points":-400,"description":"Free delivery voucher","date":"2026-05-15"},
+      {"id":5,"type":"earned","points":200,"description":"Weekend double points","date":"2026-05-10"}
+    ]
+  },
+  {
+    "id": 2, "name": "David Chen",
+    "phone": "+998 91 222 0002", "email": "david.chen@mail.com",
+    "avatar": "/images/loyalty/member-02.jpg",
+    "tier": "platinum", "status": "active",
+    "points": 2760, "totalOrders": 72, "totalSpent": 3480.00,
+    "joinedAt": "2021-09-22", "lastVisit": "2026-06-17",
+    "history": [
+      {"id":1,"type":"earned","points":95,  "description":"Order #ORD-2026-198","date":"2026-06-17"},
+      {"id":2,"type":"bonus", "points":300, "description":"Monthly VIP bonus","date":"2026-06-01"},
+      {"id":3,"type":"redeemed","points":-200,"description":"Free dessert voucher","date":"2026-05-20"},
+      {"id":4,"type":"earned","points":110, "description":"Order #ORD-2026-175","date":"2026-05-14"},
+      {"id":5,"type":"expired","points":-50,"description":"Unused points expired","date":"2026-04-30"}
+    ]
+  },
+  {
+    "id": 3, "name": "Sophia Williams",
+    "phone": "+998 93 333 0003", "email": "sophia.w@mail.com",
+    "avatar": "/images/loyalty/member-03.jpg",
+    "tier": "gold", "status": "active",
+    "points": 1840, "totalOrders": 54, "totalSpent": 2310.75,
+    "joinedAt": "2022-03-15", "lastVisit": "2026-06-16",
+    "history": [
+      {"id":1,"type":"earned","points":75, "description":"Order #ORD-2026-196","date":"2026-06-16"},
+      {"id":2,"type":"bonus", "points":150,"description":"Birthday bonus","date":"2026-05-22"},
+      {"id":3,"type":"earned","points":60, "description":"Order #ORD-2026-180","date":"2026-05-18"},
+      {"id":4,"type":"redeemed","points":-100,"description":"Discount voucher","date":"2026-05-01"}
+    ]
+  },
+  {
+    "id": 4, "name": "Marcus Johnson",
+    "phone": "+998 99 444 0004", "email": "marcus.j@mail.com",
+    "avatar": "/images/loyalty/member-04.jpg",
+    "tier": "gold", "status": "active",
+    "points": 1250, "totalOrders": 41, "totalSpent": 1875.00,
+    "joinedAt": "2022-08-01", "lastVisit": "2026-06-15",
+    "history": [
+      {"id":1,"type":"earned","points":55, "description":"Order #ORD-2026-193","date":"2026-06-15"},
+      {"id":2,"type":"earned","points":80, "description":"Order #ORD-2026-182","date":"2026-05-22"},
+      {"id":3,"type":"redeemed","points":-150,"description":"Free appetizer","date":"2026-05-10"},
+      {"id":4,"type":"bonus","points":100,"description":"Referral bonus","date":"2026-04-28"}
+    ]
+  },
+  {
+    "id": 5, "name": "Aiko Nakamura",
+    "phone": "+998 90 555 0005", "email": "aiko.n@mail.com",
+    "avatar": "/images/loyalty/member-05.jpg",
+    "tier": "gold", "status": "active",
+    "points": 1060, "totalOrders": 35, "totalSpent": 1540.50,
+    "joinedAt": "2023-01-20", "lastVisit": "2026-06-14",
+    "history": [
+      {"id":1,"type":"earned","points":65, "description":"Order #ORD-2026-191","date":"2026-06-14"},
+      {"id":2,"type":"earned","points":45, "description":"Order #ORD-2026-179","date":"2026-05-30"},
+      {"id":3,"type":"bonus","points":200,"description":"New year double points","date":"2026-01-01"},
+      {"id":4,"type":"redeemed","points":-80,"description":"Free beverage","date":"2026-04-10"}
+    ]
+  },
+  {
+    "id": 6, "name": "Yusuf Karimov",
+    "phone": "+998 91 666 0006", "email": "y.karimov@mail.com",
+    "avatar": "/images/loyalty/member-06.jpg",
+    "tier": "silver", "status": "active",
+    "points": 870, "totalOrders": 28, "totalSpent": 980.25,
+    "joinedAt": "2023-04-10", "lastVisit": "2026-06-13",
+    "history": [
+      {"id":1,"type":"earned","points":40, "description":"Order #ORD-2026-189","date":"2026-06-13"},
+      {"id":2,"type":"earned","points":55, "description":"Order #ORD-2026-177","date":"2026-05-25"},
+      {"id":3,"type":"redeemed","points":-50,"description":"Points discount","date":"2026-05-05"},
+      {"id":4,"type":"earned","points":35, "description":"Order #ORD-2026-165","date":"2026-04-18"}
+    ]
+  },
+  {
+    "id": 7, "name": "Fatima Hassan",
+    "phone": "+998 93 777 0007", "email": "fatima.h@mail.com",
+    "avatar": "/images/loyalty/member-07.jpg",
+    "tier": "silver", "status": "active",
+    "points": 680, "totalOrders": 22, "totalSpent": 756.00,
+    "joinedAt": "2023-07-05", "lastVisit": "2026-06-12",
+    "history": [
+      {"id":1,"type":"earned","points":35, "description":"Order #ORD-2026-187","date":"2026-06-12"},
+      {"id":2,"type":"earned","points":30, "description":"Order #ORD-2026-174","date":"2026-05-20"},
+      {"id":3,"type":"bonus","points":100,"description":"Welcome gift","date":"2023-07-05"},
+      {"id":4,"type":"earned","points":28, "description":"Order #ORD-2026-161","date":"2026-04-10"}
+    ]
+  },
+  {
+    "id": 8, "name": "Lucas Ferreira",
+    "phone": "+998 99 888 0008", "email": "l.ferreira@mail.com",
+    "avatar": "/images/loyalty/member-08.jpg",
+    "tier": "silver", "status": "active",
+    "points": 520, "totalOrders": 17, "totalSpent": 580.50,
+    "joinedAt": "2023-11-14", "lastVisit": "2026-06-10",
+    "history": [
+      {"id":1,"type":"earned","points":30, "description":"Order #ORD-2026-185","date":"2026-06-10"},
+      {"id":2,"type":"earned","points":25, "description":"Order #ORD-2026-170","date":"2026-05-15"},
+      {"id":3,"type":"earned","points":40, "description":"Order #ORD-2026-155","date":"2026-04-20"}
+    ]
+  },
+  {
+    "id": 9, "name": "Amara Diallo",
+    "phone": "+998 90 999 0009", "email": "amara.d@mail.com",
+    "avatar": "/images/loyalty/member-01.jpg",
+    "tier": "bronze", "status": "active",
+    "points": 340, "totalOrders": 11, "totalSpent": 312.00,
+    "joinedAt": "2024-02-28", "lastVisit": "2026-06-08",
+    "history": [
+      {"id":1,"type":"earned","points":20, "description":"Order #ORD-2026-183","date":"2026-06-08"},
+      {"id":2,"type":"earned","points":15, "description":"Order #ORD-2026-167","date":"2026-05-10"},
+      {"id":3,"type":"bonus","points":50, "description":"First order bonus","date":"2024-02-28"}
+    ]
+  },
+  {
+    "id": 10, "name": "Kevin Park",
+    "phone": "+998 91 010 0010", "email": "kevin.p@mail.com",
+    "avatar": "/images/loyalty/member-03.jpg",
+    "tier": "bronze", "status": "active",
+    "points": 180, "totalOrders": 6, "totalSpent": 148.50,
+    "joinedAt": "2024-08-12", "lastVisit": "2026-06-05",
+    "history": [
+      {"id":1,"type":"earned","points":18, "description":"Order #ORD-2026-181","date":"2026-06-05"},
+      {"id":2,"type":"earned","points":12, "description":"Order #ORD-2026-163","date":"2026-05-02"}
+    ]
+  },
+  {
+    "id": 11, "name": "Nadia Petrov",
+    "phone": "+998 93 110 0011", "email": "n.petrov@mail.com",
+    "avatar": "/images/loyalty/member-05.jpg",
+    "tier": "bronze", "status": "active",
+    "points": 90, "totalOrders": 3, "totalSpent": 87.00,
+    "joinedAt": "2025-01-20", "lastVisit": "2026-05-28",
+    "history": [
+      {"id":1,"type":"earned","points":25,"description":"Order #ORD-2026-172","date":"2026-05-28"},
+      {"id":2,"type":"bonus","points":50,"description":"Welcome bonus","date":"2025-01-20"}
+    ]
+  },
+  {
+    "id": 12, "name": "Thomas Okafor",
+    "phone": "+998 99 120 0012", "email": "t.okafor@mail.com",
+    "avatar": "/images/loyalty/member-07.jpg",
+    "tier": "bronze", "status": "inactive",
+    "points": 420, "totalOrders": 14, "totalSpent": 395.00,
+    "joinedAt": "2023-05-30", "lastVisit": "2025-11-02",
+    "history": [
+      {"id":1,"type":"expired","points":-80,"description":"Points expired (6 months inactive)","date":"2026-05-02"},
+      {"id":2,"type":"earned","points":35, "description":"Order #ORD-2025-412","date":"2025-11-02"},
+      {"id":3,"type":"earned","points":40, "description":"Order #ORD-2025-380","date":"2025-09-15"}
+    ]
+  }
+]

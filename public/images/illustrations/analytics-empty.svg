@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <defs>
+    <linearGradient id="ae-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#3B82F6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Chart frame -->
+  <rect x="20" y="30" width="160" height="100" rx="12" fill="#111318" stroke="#2A2D3A" stroke-width="1.5"/>
+
+  <!-- Grid lines faded -->
+  <line x1="20"  y1="57"  x2="180" y2="57"  stroke="#1E2130" stroke-width="1"/>
+  <line x1="20"  y1="83"  x2="180" y2="83"  stroke="#1E2130" stroke-width="1"/>
+  <line x1="20"  y1="108" x2="180" y2="108" stroke="#1E2130" stroke-width="1"/>
+
+  <!-- Empty bars (outlines only) -->
+  <rect x="35"  y="80" width="18" height="48" rx="4" fill="none" stroke="#2A2D3A" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="65"  y="65" width="18" height="63" rx="4" fill="none" stroke="#2A2D3A" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="95"  y="72" width="18" height="56" rx="4" fill="none" stroke="#2A2D3A" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="125" y="58" width="18" height="70" rx="4" fill="none" stroke="#2A2D3A" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Question mark center -->
+  <circle cx="100" cy="80" r="18" fill="#1A1D26" stroke="#3A3F52" stroke-width="1.5"/>
+  <text x="100" y="86" text-anchor="middle" font-size="18" font-weight="700" fill="#3A3F52">?</text>
+
+  <!-- Caption -->
+  <rect x="55"  y="142" width="90" height="8" rx="3" fill="#2A2D3A"/>
+  <rect x="70"  y="154" width="60" height="6" rx="3" fill="#1E2130"/>
+</svg>

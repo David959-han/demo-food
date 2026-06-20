@@ -1,0 +1,7 @@
+[
+  { "id": 1, "key": "burgers", "icon": "Beef",     "sortOrder": 1 },
+  { "id": 2, "key": "pizza",   "icon": "Pizza",    "sortOrder": 2 },
+  { "id": 3, "key": "wraps",   "icon": "Sandwich", "sortOrder": 3 },
+  { "id": 4, "key": "salads",  "icon": "Leaf",     "sortOrder": 4 },
+  { "id": 5, "key": "drinks",  "icon": "Coffee",   "sortOrder": 5 }
+]

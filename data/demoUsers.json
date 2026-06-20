@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Admin Demo",
+    "role": "admin",
+    "title": "Full system access",
+    "avatar": "",
+    "email": "admin@demo.local"
+  },
+  {
+    "id": 2,
+    "name": "Manager Demo",
+    "role": "manager",
+    "title": "Operations & analytics",
+    "avatar": "",
+    "email": "manager@demo.local"
+  },
+  {
+    "id": 3,
+    "name": "Cashier Demo",
+    "role": "cashier",
+    "title": "POS & order processing",
+    "avatar": "",
+    "email": "cashier@demo.local"
+  },
+  {
+    "id": 4,
+    "name": "Waiter Demo",
+    "role": "waiter",
+    "title": "Tables & order taking",
+    "avatar": "",
+    "email": "waiter@demo.local"
+  },
+  {
+    "id": 5,
+    "name": "Kitchen Staff Demo",
+    "role": "kitchen",
+    "title": "Kitchen display & tickets",
+    "avatar": "",
+    "email": "kitchen@demo.local"
+  }
+]

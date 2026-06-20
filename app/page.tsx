@@ -1,11 +1,5 @@
-'use client';
-import Layout from '../components/layout/Layout';
-import Dashboard from '../components/dashboard/Dashboard';
+import { redirect } from 'next/navigation';
 
-export default function HomePage() {
-  return (
-    <Layout>
-      <Dashboard />
-    </Layout>
-  );
+export default function RootPage() {
+  redirect('/dashboard');
 }

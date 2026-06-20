@@ -1,5 +1,72 @@
 [
-  {"id":1,"name":"John Doe","position":"Chef","shift":"Morning"},
-  {"id":2,"name":"Jane Smith","position":"Waiter","shift":"Evening"},
-  {"id":3,"name":"Ali Veli","position":"Manager","shift":"Full Day"}
+  {
+    "id": 1, "name": "Daniel Kim", "role": "admin", "department": "Management",
+    "phone": "+998 90 100 0001", "email": "daniel.kim@fooderp.demo",
+    "avatar": "/images/employees/daniel-kim.jpg", "status": "active", "hiredAt": "2021-03-15",
+    "totalOrders": 0, "avgRating": 4.9, "completionRate": 99,
+    "shift": { "type": "full_day", "startTime": "09:00", "endTime": "18:00" }
+  },
+  {
+    "id": 2, "name": "Sarah Chen", "role": "manager", "department": "Operations",
+    "phone": "+998 91 200 0002", "email": "sarah.chen@fooderp.demo",
+    "avatar": "/images/employees/sarah-chen.jpg", "status": "active", "hiredAt": "2021-06-20",
+    "totalOrders": 0, "avgRating": 4.7, "completionRate": 96,
+    "shift": { "type": "morning", "startTime": "08:00", "endTime": "16:00" }
+  },
+  {
+    "id": 3, "name": "Marco Ross", "role": "chef", "department": "Kitchen",
+    "phone": "+998 93 300 0003", "email": "marco.ross@fooderp.demo",
+    "avatar": "/images/employees/marco-ross.jpg", "status": "active", "hiredAt": "2020-11-10",
+    "totalOrders": 2847, "avgRating": 4.8, "completionRate": 98,
+    "shift": { "type": "morning", "startTime": "07:00", "endTime": "15:00" }
+  },
+  {
+    "id": 4, "name": "Zara Patel", "role": "sous_chef", "department": "Kitchen",
+    "phone": "+998 99 400 0004", "email": "zara.patel@fooderp.demo",
+    "avatar": "/images/employees/zara-patel.jpg", "status": "active", "hiredAt": "2022-02-14",
+    "totalOrders": 1542, "avgRating": 4.6, "completionRate": 95,
+    "shift": { "type": "afternoon", "startTime": "14:00", "endTime": "22:00" }
+  },
+  {
+    "id": 5, "name": "Alex Morgan", "role": "cashier", "department": "Front of House",
+    "phone": "+998 90 500 0005", "email": "alex.morgan@fooderp.demo",
+    "avatar": "/images/employees/alex-morgan.jpg", "status": "active", "hiredAt": "2022-08-01",
+    "totalOrders": 3218, "avgRating": 4.5, "completionRate": 97,
+    "shift": { "type": "morning", "startTime": "09:00", "endTime": "17:00" }
+  },
+  {
+    "id": 6, "name": "Elena Silva", "role": "waiter", "department": "Front of House",
+    "phone": "+998 91 600 0006", "email": "elena.silva@fooderp.demo",
+    "avatar": "/images/employees/elena-silva.jpg", "status": "active", "hiredAt": "2023-01-10",
+    "totalOrders": 1876, "avgRating": 4.8, "completionRate": 99,
+    "shift": { "type": "afternoon", "startTime": "12:00", "endTime": "20:00" }
+  },
+  {
+    "id": 7, "name": "Omar Hassan", "role": "waiter", "department": "Front of House",
+    "phone": "+998 93 700 0007", "email": "omar.hassan@fooderp.demo",
+    "avatar": "/images/employees/omar-hassan.jpg", "status": "on_leave", "hiredAt": "2022-05-15",
+    "totalOrders": 2103, "avgRating": 4.4, "completionRate": 93,
+    "shift": { "type": "morning", "startTime": "10:00", "endTime": "18:00" }
+  },
+  {
+    "id": 8, "name": "Mia Tanaka", "role": "kitchen", "department": "Kitchen",
+    "phone": "+998 99 800 0008", "email": "mia.tanaka@fooderp.demo",
+    "avatar": "/images/employees/mia-tanaka.jpg", "status": "active", "hiredAt": "2023-04-20",
+    "totalOrders": 984, "avgRating": 4.3, "completionRate": 91,
+    "shift": { "type": "night", "startTime": "20:00", "endTime": "04:00" }
+  },
+  {
+    "id": 9, "name": "James Wilson", "role": "delivery", "department": "Delivery",
+    "phone": "+998 90 900 0009", "email": "james.wilson@fooderp.demo",
+    "avatar": "/images/employees/james-wilson.jpg", "status": "active", "hiredAt": "2023-07-01",
+    "totalOrders": 756, "avgRating": 4.7, "completionRate": 96,
+    "shift": { "type": "afternoon", "startTime": "14:00", "endTime": "22:00" }
+  },
+  {
+    "id": 10, "name": "Priya Sharma", "role": "cashier", "department": "Front of House",
+    "phone": "+998 91 000 0010", "email": "priya.sharma@fooderp.demo",
+    "avatar": "/images/employees/priya-sharma.jpg", "status": "active", "hiredAt": "2023-09-15",
+    "totalOrders": 1124, "avgRating": 4.6, "completionRate": 94,
+    "shift": { "type": "morning", "startTime": "08:00", "endTime": "16:00" }
+  }
 ]

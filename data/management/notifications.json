@@ -1,0 +1,22 @@
+[
+  { "id": "notif-001", "type": "new_order",       "titleKey": "notifications.title_new_order",    "body": "Table 4 — 3 items • $38.40",          "time": "2026-06-20T10:58:00", "read": false },
+  { "id": "notif-002", "type": "new_order",       "titleKey": "notifications.title_new_order",    "body": "Table 7 — 5 items • $67.20",          "time": "2026-06-20T10:52:00", "read": false },
+  { "id": "notif-003", "type": "order_ready",     "titleKey": "notifications.title_order_ready",  "body": "ORD-311 — Table 2 is ready to serve", "time": "2026-06-20T10:47:00", "read": false },
+  { "id": "notif-004", "type": "low_stock",       "titleKey": "notifications.title_low_stock",    "body": "Beef Patty — only 4 kg remaining",    "time": "2026-06-20T10:35:00", "read": false },
+  { "id": "notif-005", "type": "delivery_update", "titleKey": "notifications.title_delivery",     "body": "ORD-DEL-089 delivered by Amir K.",    "time": "2026-06-20T10:22:00", "read": false },
+  { "id": "notif-006", "type": "new_customer",    "titleKey": "notifications.title_new_customer", "body": "Jessica Park joined Loyalty program",  "time": "2026-06-20T10:10:00", "read": false },
+  { "id": "notif-007", "type": "order_ready",     "titleKey": "notifications.title_order_ready",  "body": "ORD-308 — Table 5 is ready to serve", "time": "2026-06-20T09:58:00", "read": false },
+  { "id": "notif-008", "type": "new_order",       "titleKey": "notifications.title_new_order",    "body": "Table 1 — 2 items • $21.00",          "time": "2026-06-20T09:44:00", "read": true  },
+  { "id": "notif-009", "type": "low_stock",       "titleKey": "notifications.title_low_stock",    "body": "Mozzarella — only 1.5 kg remaining",  "time": "2026-06-20T09:30:00", "read": true  },
+  { "id": "notif-010", "type": "delivery_update", "titleKey": "notifications.title_delivery",     "body": "ORD-DEL-087 picked up by Timur B.",   "time": "2026-06-20T09:18:00", "read": true  },
+  { "id": "notif-011", "type": "system",          "titleKey": "notifications.title_system",       "body": "Daily backup completed successfully",  "time": "2026-06-20T09:00:00", "read": true  },
+  { "id": "notif-012", "type": "new_customer",    "titleKey": "notifications.title_new_customer", "body": "Mark Johnson joined Silver tier",      "time": "2026-06-20T08:45:00", "read": true  },
+  { "id": "notif-013", "type": "new_order",       "titleKey": "notifications.title_new_order",    "body": "Table 9 — 4 items • $52.80",          "time": "2026-06-20T08:30:00", "read": true  },
+  { "id": "notif-014", "type": "order_ready",     "titleKey": "notifications.title_order_ready",  "body": "ORD-302 — Table 9 is ready to serve", "time": "2026-06-20T08:18:00", "read": true  },
+  { "id": "notif-015", "type": "delivery_update", "titleKey": "notifications.title_delivery",     "body": "ORD-DEL-085 — Customer confirmed",    "time": "2026-06-20T08:05:00", "read": true  },
+  { "id": "notif-016", "type": "low_stock",       "titleKey": "notifications.title_low_stock",    "body": "Olive Oil — 2 bottles remaining",     "time": "2026-06-19T22:50:00", "read": true  },
+  { "id": "notif-017", "type": "system",          "titleKey": "notifications.title_system",       "body": "10 purchase orders auto-archived",    "time": "2026-06-19T22:00:00", "read": true  },
+  { "id": "notif-018", "type": "new_customer",    "titleKey": "notifications.title_new_customer", "body": "Priya R. reached Gold tier status",   "time": "2026-06-19T21:30:00", "read": true  },
+  { "id": "notif-019", "type": "order_ready",     "titleKey": "notifications.title_order_ready",  "body": "ORD-298 — Delivery order packed",     "time": "2026-06-19T21:10:00", "read": true  },
+  { "id": "notif-020", "type": "system",          "titleKey": "notifications.title_system",       "body": "End-of-day report generated",         "time": "2026-06-19T20:00:00", "read": true  }
+]

@@ -1,25 +1,26 @@
 {
   "kpis": [
-    {"title": "Total Orders", "value": 120},
-    {"title": "Revenue", "value": "$15,300"},
-    {"title": "New Customers", "value": 35},
-    {"title": "Pending Orders", "value": 12},
-    {"title": "Completed Orders", "value": 108},
-    {"title": "Menu Items", "value": 48},
-    {"title": "Tables Active", "value": 12},
-    {"title": "Staff On Duty", "value": 10}
+    { "key": "total_orders",   "value": 247,     "delta": "+12%",  "trend": "up",      "variant": "brand"   },
+    { "key": "revenue",        "value": "$8,420", "delta": "+8%",   "trend": "up",      "variant": "success" },
+    { "key": "new_customers",  "value": 31,       "delta": "+5",    "trend": "up",      "variant": "info"    },
+    { "key": "pending_orders", "value": 18,       "delta": "-3",    "trend": "down",    "variant": "warning" }
   ],
+  "revenueChart": {
+    "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "data":   [1200, 1900, 1500, 2200, 1700, 2100, 2500]
+  },
   "recentOrders": [
-    {"id": 1, "table": 5, "customer": "John Doe", "total": "$45", "status": "Completed"},
-    {"id": 2, "table": 2, "customer": "Jane Smith", "total": "$30", "status": "Pending"},
-    {"id": 3, "table": 7, "customer": "Ali Veli", "total": "$22", "status": "Completed"},
-    {"id": 4, "table": 1, "customer": "Sara Khan", "total": "$18", "status": "Completed"},
-    {"id": 5, "table": 3, "customer": "Tom Brown", "total": "$60", "status": "Pending"}
+    { "id": 101, "table": 5, "customer": "John D.",  "total": "$45.00", "status": "completed" },
+    { "id": 102, "table": 2, "customer": "Jane S.",  "total": "$30.00", "status": "pending"   },
+    { "id": 103, "table": 7, "customer": "Ali V.",   "total": "$22.00", "status": "completed" },
+    { "id": 104, "table": 1, "customer": "Sara K.",  "total": "$18.00", "status": "completed" },
+    { "id": 105, "table": 3, "customer": "Tom B.",   "total": "$60.00", "status": "pending"   }
   ],
   "popularMenu": [
-    {"name": "Cheese Burger", "image": "https://images.unsplash.com/photo-1550547660-d9450f859349", "price": "$12"},
-    {"name": "Veggie Pizza", "image": "https://images.unsplash.com/photo-1601924638867-3ecf1e5a35e3", "price": "$15"},
-    {"name": "Chicken Wrap", "image": "https://images.unsplash.com/photo-1617196037823-3db27ed40f72", "price": "$10"},
-    {"name": "Coke", "image": "https://images.unsplash.com/photo-1598514982232-63df9bc91f7b", "price": "$3"}
+    { "rank": 1, "name": "Cheese Burger", "orders": 142, "revenue": "$1,704" },
+    { "rank": 2, "name": "Veggie Pizza",  "orders": 98,  "revenue": "$1,470" },
+    { "rank": 3, "name": "Chicken Wrap",  "orders": 87,  "revenue": "$870"   },
+    { "rank": 4, "name": "Caesar Salad",  "orders": 65,  "revenue": "$845"   },
+    { "rank": 5, "name": "Coke",          "orders": 201, "revenue": "$603"   }
   ]
 }
