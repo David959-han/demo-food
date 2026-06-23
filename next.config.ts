@@ -1,15 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
+  output: 'export',
+  basePath: '/demo-food',
+  trailingSlash: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname:  'images.unsplash.com',
-        pathname:  '/photo-*',
-      },
-    ],
+    unoptimized: true,
   },
 };
 
